@@ -2,6 +2,8 @@ streamlit
 pillow
 numpy
 pandas
+streamlit
+google-cloud-vision
 opencv-python-headless
 pytesseract
 ta
