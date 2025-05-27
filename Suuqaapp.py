@@ -10,6 +10,9 @@ from ta.trend import MACD
 from ta.volatility import BollingerBands
 from ta.trend import EMAIndicator
 
+# 🔑 Tilmaan Tesseract OCR path
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Haddii aad Windows isticmaaleyso
+
 # Title
 st.title("📈 Crypto Signal Pro App")
 
@@ -85,4 +88,3 @@ if uploaded_file is not None:
         st.warning("⚠️ Cannot provide Entry/TP/SL as the signal is unclear.")
 else:
     st.info("📂 Please upload a chart screenshot to analyze.")
-
